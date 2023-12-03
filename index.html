@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Include hls.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:,">
+  <title>LiveCaption</title>
+  <style>
+    
+  </style>
+</head>
+  <body>
+      <!-- Your video element -->
+      <video id="live-stream" controls autoplay muted></video>
+  
+      <!-- Add a dropdown menu for quality selection -->
+      <select id="quality-select"></select>
+  
+      <!-- Transcript -->
+      <div id="interim"></div>
+    <script src="js/speech_api.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+ body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url('https://wallpaperboat.com/wp-content/uploads/2019/10/best-background-for-website-05.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+#live-stream {
+    flex: 1;
+    max-width: 45%;
+    height: auto;
+    background-color: black;
+    border: 3px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#interim {
+    flex: 1;
+    height: 120px;
+    background-color: black;
+    border: 3px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: -R--SLM-TV;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    font-size: 30px;
+    direction: rtl;
+    text-align: center;
+    max-width: 35%;
+}
+/* Add CSS for the quality select dropdown */
+#quality-select {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    font-size: 16px;
+    background-color: black;
+    border: 3px solid #333;
+    border-radius: 10px;
+    color: white;
+}
