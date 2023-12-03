@@ -64,7 +64,7 @@
 
     // Function to get the stream links from the backend
 async function getStreamLinks() {
-  const response = await fetch('http://ahmedesawy.pythonanywhere.com/api/stream-links');
+  const response = await fetch('https://ahmedesawy.pythonanywhere.com/api/stream-links');
   const data = await response.json();
   return data.links;
 }
