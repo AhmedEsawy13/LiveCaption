@@ -1,6 +1,6 @@
 # LiveCaption
 
-Transcribe live stream channels audio and provide real-time captions.
+Transcribe live stream tv channels audio and provide real-time captions.
 
 - HLS Library for the video player to play the live stream channels.
 - PythonAnyWhere for running Flask web app to call the API that stores live stream links.
